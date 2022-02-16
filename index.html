@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+    <!-- awesome icon cdn -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- 파비콘 -->
+    <link href="img/favicon.png" type="image/icon"  rel="shortcut icon">
+    <!-- fullpage css-->
+    <link rel="stylesheet" href="css/jquery.fullpage.css" type="text/css">
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <!-- css -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <!-- js -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- fullpage.js -->
+    <script src="js/jquery.fullpage.min.js"></script>
+    <!-- swiper.js cdn -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- js -->
+    <script src="js/main.js"></script>
+    <title>JIANI'S Portflio</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html#intro">
+                <img src="img/logo.png" alt="로고">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li> <a href="#intro">Intro</a></li>
+                <li> <a href="#profile">Profile</a></li>
+                <li> <a href="#web">Web</a></li>
+                <li> <a href="#edit">Editorial</a></li>
+                <li> <a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="sns">
+            <ul>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+        </div>
+        <div class="search">
+            <a href="#"><i class="fas fa-search"></i></a>
+        </div>
+    </header>
+    <div id="fullpage">
+        <section class="section intro">
+            <h2>Portfolio</h2>
+            <div class="object1"></div>
+            <div class="object2"></div>
+            <div class="object3"></div>
+        </section>
+        <section class="section profile">
+            <h1>Protfolio</h1>
+            <div class="box">
+                <div class="photo">
+                    <img src="img/favicon.png" alt="내사진">
+                </div>
+                <div class="license">
+                    <h2>career</h2>
+                    <p>
+                        2019~2020 원조이몰,디자인업무<br>
+                        2020~2021 유캔컴퍼니,디자인업무<br>
+                        2021~2021 제이에스스퀘어,디자인업무
+                    </p>
+                </div>
+                <div class="work">
+                    <p><span>NAME:</span>뤼쟈니</p>
+                    <p><span>BIRTH:</span>1988.07.26</p>
+                    <p><span>ADD:</span>인천서구 원당동</p>
+                    <p><span>TEL:</span>010-3470-8846</p>
+                    <p><span>EMAIL:</span>ljn8846@naver.com</p>
+                </div>
+                <div class="skill">
+                    <h2>Skill</h2>
+                    <div class="container-skillbar">
+                        <div class="skillbar clearfix " data-percent="70%">
+                            <div class="skillbar-title" style="background: #DD1E2F;"><span>HTML5</span></div>
+                            <div class="skillbar-bar" style="background: #DD1E2F;"></div>
+                            <div class="skill-bar-percent">70%</div>
+                        </div> <!-- Ende Skill Bar -->
+                    
+                        <div class="skillbar clearfix " data-percent="65%">
+                            <div class="skillbar-title" style="background: #EBB035;"><span>CSS3</span></div>
+                            <div class="skillbar-bar" style="background: #EBB035;"></div>
+                            <div class="skill-bar-percent">65%</div>
+                        </div> <!-- Ende Skill Bar -->
+                    
+                        <div class="skillbar clearfix " data-percent="50%">
+                            <div class="skillbar-title" style="background: #06A2CB;"><span>jQuery</span></div>
+                            <div class="skillbar-bar" style="background: #06A2CB;"></div>
+                            <div class="skill-bar-percent">50%</div>
+                        </div> <!-- Ende Skill Bar -->
+                    
+                        <div class="skillbar clearfix " data-percent="85%">
+                            <div class="skillbar-title" style="background: #218559;"><span>Photoshop</span></div>
+                            <div class="skillbar-bar" style="background: #218559;"></div>
+                            <div class="skill-bar-percent">85%</div>
+                        </div> <!-- Ende Skill Bar -->
+                    
+                        <div class="skillbar clearfix " data-percent="60%">
+                            <div class="skillbar-title" style="background: #D0C6B1;"><span>Indesign</span></div>
+                            <div class="skillbar-bar" style="background: #D0C6B1;"></div>
+                            <div class="skill-bar-percent">60%</div>
+                        </div> <!-- Ende Skill Bar -->
+                    
+                        <div class="skillbar clearfix " data-percent="75%">
+                            <div class="skillbar-title" style="background: #192823;"><span>Illustrator</span></div>
+                            <div class="skillbar-bar" style="background: #454545;"></div>
+                            <div class="skill-bar-percent">75%</div>
+                        </div> <!-- Ende Skill Bar -->
+                    </div><!-- Ende container Skill Bar -->
+                </div>
+            </div>
+        </section>
+        <section class="section web">
+            <h1>Web Protfolio</h1>
+            <!-- swiper -->
+            <!-- Slider main container -->
+            <div class="box">
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="slide_img">
+                                <!-- 목업이미지 -->
+                                <img src="img/PC_1.jpg" alt="큐브미">
+                            </div>
+                            <div class="slide_des">
+                                <!-- 포폴 설명 -->
+                                <div class="number">
+                                    <p><b>01</b>/05</p>
+                                </div>
+                                <!-- 포플 설명 -->
+                                <h2>큐브미 리뉴얼</h2>
+                                <p>
+                                    <span><i class="far fa-hand-point-right"></i>벤치마킹 : </span>하나금융파인드<br>
+                                    <span><i class="far fa-hand-point-right"></i>기기 지원 : </span>PC버전<br>
+                                    <span><i class="far fa-hand-point-right"></i>사용 Skill : </span>HTML5+CSS3+JQury<br>
+                                    <span><i class="far fa-hand-point-right"></i>사용 plugin : </span>Swiper slide<br>
+                                    <span><i class="far fa-hand-point-right"></i>제작 기간 : </span>2주일<br>
+                                    <span><i class="far fa-hand-point-right"></i>콘텐츠 설명 : </span>메인 비주얼에 자동 슬라이드를 제작하여 표현하였고,PRODUCT는 탭메뉴로 제작하였음.
+                                </p>
+                                <div class="slide_btn">
+                                <a href="https://www.cubeme.co.kr/main.do" target="_blank">Original</a>
+                                <a href="https://ljn8846123.github.io/cubeme/" target="_blank">Renewal</a>
+                                </div> <!--swiper slide-->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_img">
+                                <!-- 목업이미지 -->
+                                <img src="img/PC_2.jpg" alt="지산리조트">
+                            </div>
+                            <div class="slide_des">
+                                <!-- 포폴 설명 -->
+                                <div class="number">
+                                    <p><b>02</b>/05</p>
+                                </div>
+                                <!-- 포플 설명 -->
+                                <h2>파리바게트</h2>
+                                <p>
+                                    <span><i class="far fa-hand-point-right"></i>벤치마킹 : </span>지산리조트<br>
+                                    <span><i class="far fa-hand-point-right"></i>기기 지원 : </span>PC버전<br>
+                                    <span><i class="far fa-hand-point-right"></i>사용 Skill : </span>HTML5+CSS3+JQury<br>
+                                    <span><i class="far fa-hand-point-right"></i>사용 plugin : </span>Swiper slide<br>
+                                    <span><i class="far fa-hand-point-right"></i>제작 기간 : </span>2주일<br>
+                                    <span><i class="far fa-hand-point-right"></i>콘텐츠 설명 : </span>메인 비주얼은 아코다언으로 제작하여 표현하였고,swiper slide플러그인을 사용하여 다양한 형태의 슬라이드를 제작하였음.
+
+                                </p>
+                                <div class="slide_btn">
+                                <a href="https://www.jisanresort.co.kr/w/" target="_blank">Original</a>
+                                <a href="https://ljn8846123.github.io/pb/" target="_blank">Renewal</a>
+                                </div> <!--swiper slide-->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_img">
+                                <!-- 목업이미지 -->
+                                <img src="img/PC_3.jpg" alt="네오포레">
+                            </div>
+                            <div class="slide_des">
+                                <!-- 포폴 설명 -->
+                                <div class="number">
+                                    <p><b>03</b>/05</p>
+                                </div>
+                                <!-- 포플 설명 -->
+                                <h2>Nike</h2>
+                                <p>
+                                    <span><i class="far fa-hand-point-right"></i>벤치마킹 : </span>네오포레<br>
+                                    <span><i class="far fa-hand-point-right"></i>기기 지원 : </span>반응형(PC+Tablet+Mobile)<br>
+                                    <span><i class="far fa-hand-point-right"></i>사용 Skill : </span>HTML5+CSS3+JQury<br>
+                                    <span><i class="far fa-hand-point-right"></i>사용 plugin : </span>Swiper slide<br>
+                                    <span><i class="far fa-hand-point-right"></i>제작 기간 : </span>1주일<br>
+                                    <span><i class="far fa-hand-point-right"></i>콘텐츠 설명 : </span>뷰포트,미디어쿼리를 사용하여 반응형으로 제작함. awesome icon도 사용함.
+
+                                </p>
+                                <div class="slide_btn">
+                                <a href="https://www.neoforet.co.kr/" target="_blank">Original</a>
+                                <a href="https://ljn8846123.github.io/nike2/" target="_blank">Renewal</a>
+                                <a href="https://ljn8846123.github.io/nike2/"  onclick="window.open('https://ljn8846123.github.io/nike2/', '_blank', 'width=480 height=1000,location=no,menubar=no,status=no,toolbar=no')">Mobile</a>
+
+                                </div> <!--swiper slide-->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_img">
+                                <!-- 목업이미지 -->
+                                <img src="img/PC_4.jpg" alt="오늘레스토랑">
+                            </div>
+                            <div class="slide_des">
+                                <!-- 포폴 설명 -->
+                                <div class="number">
+                                    <p><b>04</b>/05</p>
+                                </div>
+                                <!-- 포플 설명 -->
+                                <h2>Wise Wedding</h2>
+                                <p>
+                                    <span><i class="far fa-hand-point-right"></i>벤치마킹 : </span>오늘레스토랑<br>
+                                    <span><i class="far fa-hand-point-right"></i>기기 지원 : </span>반응형(PC+Tablet+Mobile)<br>
+                                    <span><i class="far fa-hand-point-right"></i>사용 Skill : </span>HTML5+CSS3+JQury+Bootstrap<br>
+                                    <span><i class="far fa-hand-point-right"></i>사용 plugin : </span>Swiper slide<br>
+                                    <span><i class="far fa-hand-point-right"></i>제작 기간 : </span>2주일<br>
+                                    <span><i class="far fa-hand-point-right"></i>콘텐츠 설명 : </span>화면 스크롤 시에 콘텐츠가 서서히 나타나는 애니메이션을 구현하였고,구글 지도를 삽입홤.
+
+                                </p>
+                                <div class="slide_btn">
+                                <a href="https://restaurantoneul.com/">Original</a>
+                                <a href="https://ljn8846123.github.io/wisewedding/">Renewal</a>
+                                <a href="https://ljn8846123.github.io/wisewedding/"  onclick="window.open('https://ljn8846123.github.io/nike2/', '_blank', 'width=480 height=1000,location=no,menubar=no,status=no,toolbar=no')">Mobile</a>
+                                </div> <!--swiper slide-->
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slide_img">
+                                <!-- 목업이미지 -->
+                                <img src="img/PC_5.jpg" alt="두성종이">
+                            </div>
+                            <div class="slide_des">
+                                <!-- 포폴 설명 -->
+                                <div class="number">
+                                    <p><b>05</b>/05</p>
+                                </div>
+                                <!-- 포플 설명 -->
+                                <h2>두성 종이</h2>
+                                <p>
+                                    <span><i class="far fa-hand-point-right"></i>벤치마킹 : </span>포스코오앤엠<br>
+                                    <span><i class="far fa-hand-point-right"></i>기기 지원 : </span>모바일 웹<br>
+                                    <span><i class="far fa-hand-point-right"></i>사용 Skill : </span>HTML5+CSS3+JQury+Bootstrap<br>
+                                    <span><i class="far fa-hand-point-right"></i>사용 plugin : </span>Swiper slide<br>
+                                    <span><i class="far fa-hand-point-right"></i>제작 기간 : </span>1주일<br>
+                                    <span><i class="far fa-hand-point-right"></i>콘텐츠 설명 : </span>모바일 웹앱으로 구현하였고, 세로 아코디언 형태로 내비게이션을 제작함.
+
+                                </p>
+                                <div class="slide_btn">
+                                <a href="https://www.poscoonm.com/" target="_blank">Original</a>
+                                <a href=" https://ljn8846123.github.io/doosungpaper/" target="_blank">Renewal</a>
+                                </div> <!--swiper slide-->
+                            </div>
+                        </div>
+                    </div><!--swiper wrappper-->
+
+                <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div><!--swiper-->
+            </div>
+        </section>
+        <section class="section edit">
+            <h1>Edit Portfolio</h1>
+            <div class="box">
+                <!-- 왼쪽에 썸네일 세로로 나열하고 ,오른쪽에 큰 이미지 보임-->
+                <div class="gallery">
+                    <div class="thum_img">
+                        <ul>
+                            <li><a href="img/namecard.jpg"><img src="img/namecard.jpg" alt="명함"></a></li>
+                            <li><a href="img/poster.jpg"><img src="img/poster.jpg" alt="포스터"></a></li>
+                            <li><a href="img/bookcover.jpg"><img src="img/bookcover.jpg" alt="북커버"></a></li>
+                            <li><a href="img/leaflet.jpg"><img src="img/leaflet.jpg" alt="3단리플렛"></a></li>
+                            <li><a href="img/banner.jpg"><img src="img/banner.jpg" alt="상품매너"></a></li>
+                            <li><a href="img/people.jpg"><img src="img/people.jpg" alt="인물그리기"></a></li>
+                        </ul>
+                    </div>
+                    <!-- <div class="big_img">
+                        <ul>
+                            <li><a href="#"><img src="img/namecard.jpg" alt="명함"></a></li>
+                            <li><a href="#"><img src="img/poster.jpg" alt="포스터"></a></li>
+                            <li><a href="#"><img src="img/bookcover.jpg" alt="북커버"></a></li>
+                            <li><a href="#"><img src="img/leaflet.jpg" alt="3단리플렛"></a></li>
+                            <li><a href="#"><img src="img/banner.jpg" alt="상품매너"></a></li>
+                            <li><a href="#"><img src="img/people.jpg" alt="인물그리기"></a></li>
+                        </ul>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+        <section class="section contact">
+            <h1>Contact Me</h1>
+            <div class="box">
+               <div class="contact_wrap">
+                <div class="contact_img">
+                    <img src="img/favicon.png" alt="contact">
+                </div>
+                <form class="gform" method="POST" data-email="ljn8846@naver.com" action="https://script.google.com/macros/s/AKfycbyHXJbsaHYUtp1YnSpkwmgvQEzP7WjrVWM3OwIi/exec">
+                    <div class="form-elements">
+                        <fieldset class="pure-group">
+                        <label for="name">이&nbsp &nbsp름: </label>
+                        <input id="name" name="name" placeholder="이름을 입력해 주세요." />
+                        </fieldset>
+                
+                        <fieldset class="pure-group">
+                        <label for="title">제&nbsp; &nbsp;목: </label>
+                        <input id="title" name="title" placeholder="메일 제목을 입력해 주세요." />
+                        </fieldset>
+                
+                        <fieldset class="pure-group">
+                        <label for="message">내&nbsp; &nbsp; &nbsp; &nbsp;용: </label>
+                        <textarea id="message" name="message" 
+                        placeholder="메일 내용을 입력해 주세요."></textarea>
+                        </fieldset>
+                
+                        <fieldset class="pure-group">
+                        <label for="email">이메일:</label>
+                        <input id="email" name="email" type="email" value=""
+                        required placeholder="메일 내용을 입력해 주세요."/>
+                        </fieldset>
+                
+                
+                        <button class="button-success pure-button button-xlarge">
+                        보내기</button>
+                    </div>
+                    <div class="thankyou_message" style="display:none;">
+                        <h2>메일이 정상적으로 전송되었습니다. 감사합니다.</h2>
+                    </div>
+                </form>
+               </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+            ⓒJIANI BY 2022.
+    </footer>
+    <!-- 팜업 갤러리 -->
+    <div class="popup">
+        <div class="popup_close">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="popup_img"></div>
+    </div>
+    <script data-cfasync="false" src="js/form-submission-handler.js"></script>
+</body>
+</html>
